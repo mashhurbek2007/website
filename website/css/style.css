@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #E5E5E5;
+}
+.container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-image: url(../images/IMAGE\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #606363;
+    position: relative;
+    height: 120vh;
+}
+.div-head{
+    display: flex;
+    align-items: center; 
+    padding-top: 10px;
+}
+.button{
+    /* padding: 20px 30px; */
+    position: absolute;
+    height: 85px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    width: 300px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+}
+.navbar ul{
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin-left: 40px;
+    font-size: 22px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.contact{
+    margin-left: auto;
+    display: flex;
+}
+.contact-2{
+    margin-left: 50px;
+    display: flex;
+}
+.df-0{
+    display: flex;
+    align-items: center;
+}
+.group-0{
+    color: white;
+    margin-left: 50px;
+}
+.group-0 img{
+    width: 95px;
+    height: 44px;
+    margin-top: 130px;
+}
+.group-0 h2{
+    width: 750px;
+    height: 156px;
+    font-family: 'Cormorant Garamond';
+    color: #FFFFFF;
+    font-size: 65px;
+}
+.group-0 p{
+    width: 655px;
+    height: 80px;
+    font-size: 22px;
+    color: #D1B06B;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+}
+.button-0{
+    height: 85px;
+    width: 270px;
+    background: #D1B06B;
+    border: 1px solid #D1B06B;
+    border-radius: 0px;
+    color: #1F2732;
+    text-align: center;
+    letter-spacing: 0.4px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+
+
+
+
+.section-01{
+    width: 1500px;
+    background: #FFFFFF;
+    text-align: center;
+}
+.section-01-div h2{
+    font-size: 45px;
+    color: #161D27;
+    padding-top: 120px;
+    text-transform: capitalize;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+}
+.section-01-div img{
+    width: 95px;
+    height: 44px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.section-01-div p{
+    color: #909090;
+    margin-top: 10px;
+}
